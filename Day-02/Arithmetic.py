@@ -1,0 +1,6 @@
+print("______Arithmetic Operations______")
+print("Addition:3+5=",3+5)
+print("Subtraction:50-9=",50-9)
+print("Multiplication:40*3=",40*3)
+print("Division: 55/11=",55/11)
+print("Modulus:45%3",45%3)
