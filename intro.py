@@ -1,8 +1,0 @@
-print("Full Name: Ashwini Mudagall")
-print("College Name:P C Jabin Science College")
-print("Course Enrolled:Bachelor of Science")
-print("Register Number:124PMCs461")
-print("Address:Amar Colony Gopankoppa Hubli")
-print("Age:20")
-print("DOB:27 february 2005")
-print("Mail ID:Ashwini213@gmail.com")
