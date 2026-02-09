@@ -1,0 +1,14 @@
+ 
+
+#n = int(input("Enter n: "))
+#total = 0
+#for i in range(n):  
+ #   total += i
+#print("Sum is:", total)
+
+
+n=int(input("Enter n: "))
+total = 0
+for i in range(1, n+1):
+    total += i
+print("Sum is:", total)
