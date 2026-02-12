@@ -19,7 +19,7 @@ PROGRAMS COMPLETED
 #CONCEPTS COVERED 
 1.Sets
 2.Dictionaries
-3.Dictionary methods like Update(),add() etc..
+3.Dictionary and set  methods like Update(),add()  etc..
 
 #Language used
 Python
