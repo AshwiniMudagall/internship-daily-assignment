@@ -1,0 +1,7 @@
+Hi this is Ashwini. I am learning file I/O in python.
+This is a important concept of python.
+ Name:Ashwini
+Course:Bsc
+Major Subject:Computer Science
+Usn:U02AS24S0461
+Age:20
