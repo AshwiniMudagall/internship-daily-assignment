@@ -1,0 +1,7 @@
+Student Records
+First Name=Ashwini
+Last Name=Mudagall
+Roll No.=76
+Course=Bsc
+Graduation Year=2027
+Stream=Science
