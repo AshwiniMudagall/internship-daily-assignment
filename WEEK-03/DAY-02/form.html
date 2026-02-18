@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<style>
+   body{
+    background-color: rgb(196, 207, 203);
+   }
+  h1{
+    background-color: rgb(211, 166, 112);
+    width: fit-content;
+    border-radius: 30px;
+    border-style: solid;
+
+  }
+
+</style>
+<body>
+    <h1>Welcome to student registration page:</h1>
+    <p id="firstpara">This is a demo student registration page deingned as a part of internship assignment.here the student enter their details to get promoted to the next semester</p>
+
+    <form action="backend.c">
+        <div>
+                <label for="Myname">First Name:</label>
+
+      <input type="text" id="Myname" required >
+       <br> 
+       <br>
+       </div>
+
+<div>
+     
+      <label for="lastname">Last Name(if any):</label>
+      
+      <input type="text" name="Lastname" id="lastname">
+      <br><br>
+      </div>
+
+      <div>
+      <label for="E-mail_ID">Email-ID:</label>
+      <input type="email" name="Emailid" id="E-mail_ID" required>
+     </div>
+
+     <br>
+     <div>
+        <label for="USN">USN:</label>
+        <input type="textnumber" id="USN">
+     </div>
+     <br>
+    <div>
+    <label for="ID">Student ID:</label>
+    <input type="textnumber" name="studebntid" id="ID" required>
+       </div>
+<br>
+<div>
+<label for="password">Password:</label>
+<input type="text" id="password">
+</div>
+<br>
+     <div>
+        
+        <label for="subjectNo">Number of  core Subjects:</label>
+        <input type="number" id="subjectNo" required>
+     </div> 
+     <br>
+
+       <div>
+        <p style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Select core subjects</p>
+       <label for="subjects">Physics</label>
+       <input type="checkbox" name="subjects" id="physics">
+     </div>
+      
+
+     <div>
+        <label for="Chemistry">Chemistry</label>
+        <input type="checkbox" name="subjects" id="Chemistry">
+     </div>
+
+     <div>
+        <label for="Biology">Biology</label>
+        <input type="checkbox" name="subjects" id="Chemistry">
+     </div>
+
+     <div>
+        <label for="Computer science">Computer science</label>
+        <input type="checkbox" name="subjects" id="Computer science">
+     </div>
+
+     <div>
+        <label for="Botany">Botany</label>
+        <input type="checkbox" name="subjects" id="Botany">
+     </div>
+
+     <div>
+        <label for="microbiology">microbiology</label>
+        <input type="checkbox" name="subjects" id="microbiology">
+     </div>
+<br>
+<div>
+    <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Gender</p>
+    <label for="male">Male</label>
+    <input type="radio"  name="Gender" id="male">
+
+    <label for="female">Female</label>
+    <input type="radio" name="Gender" id="female">
+
+    <label for="other">Other</label>
+    <input type="radio" name="Gender" id="other">
+
+    <label for="preferno">Prefer not to say</label>
+    <input type="radio" name="Gender" id="preferno">
+</div>
+
+<div>
+    <p style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Select</p>
+    <label for="DayScholar">Day Scholar</label>
+    <input type="radio" name="ModeOfCollege" id="DayScholar">
+</div>
+<div>
+    <label for="Hostellaer">Hosteller</label>
+    <input type="radio" name="ModeOfCollege" id="Hosteller">
+</div>
+<br>
+
+<div>
+    <label style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif" for="suggestion">Any feedback about the college:</label>
+    <br>
+    <textarea name="myarea" id="suggestion"></textarea>
+</div>
+
+     
+     <br>
+     <input style="color: rgb(10, 10, 10); background-color: burlywood;"type="submit" value="Submit">
+
+    </form>
+    <br>
+</body>
+
+</html>
