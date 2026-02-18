@@ -1,4 +1,4 @@
-WEEK-03 DAY-02 Taskscompleted 
+WEEK-03 DAY-02 Tasks completed 
 
 A form is creaed using different html input tags and labels. Covered vital concepts of HTML by creating a form with different input sections like Name,password,Phone number etc
 
