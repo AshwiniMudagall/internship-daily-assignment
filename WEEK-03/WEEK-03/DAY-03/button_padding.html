@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <!--Margin,Border and Padding done here-->
+<style>
+   
+.content{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.myclass{
+    margin-left: 50px;
+    border: 3px dotted black;
+    padding: 30px;
+    line-height: 40px;
+
+}
+.mybutton input{
+   width: fit-content;
+   height: fit-content;
+    background-color: blueviolet;
+    
+    padding: 4px;
+    color: chartreuse;
+    margin-top: 40px;border-radius: 2px;
+    color-scheme: initial;
+    
+
+}
+
+
+</style>
+<body>
+    <div class="content" id="mycontent">
+        <h3>This is about button style and padding</h3>
+        <p>The webpage is made to demonstrate the usage of the border,margin and padding concepts in css. Also a button is created and styled using the css language</p>
+
+    </div>
+    <div class="myclass">
+        <form action="myphp">
+            <label for="myid">Name:</label>
+            <input type="text" name="myname" id="myid"><br>
+            <label for="address"> Address:</label>
+            <input type="text" name="myad" id="myaddress"><br>
+            <label for="dates"> Date of Birth:</label>
+            <input type="date" name="mydata" id="dates"><br>
+            <label for="male">Male:</label>
+            <input type="radio" name="mygender" id="male">
+            <label for="female">Female:</label>
+            <input type="radio" name="mygender" id="female">
+        
+    </div>
+    <div class="mybutton">
+        <input type="button" value="Submit">
+    </div>
+</body>
+</html>
