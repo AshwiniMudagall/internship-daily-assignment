@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries CSS</title>
+
+</head>
+<style>
+    body{
+        background-color: blue;
+    }
+   /* First media query */
+    @media only screen and (max-width:455px)
+    {
+    body{
+        background-color: red;
+    }
+    }
+    .boxes
+    {
+              flex-direction: coloumn;
+    }
+    .boxes{
+        display: flex;
+    }
+    .box{
+        width: 344px;
+        height: 344px;
+        background-color: steelblue;
+        padding: 3px;
+        margin: 3px;
+  
+
+    }
+    /* second media query */
+    @media screen and (orientation: portrait)
+    {
+        body{
+        border: 2px solid purple;
+        }
+
+    }
+    /* MEDIA QUERY  is noithing but the user can change t
+    the sty;le of the webpage in their own device
+    SYNTAX:@media only mediatype and(expressions) 
+   {
+    CSS-code; 
+   }
+    */
+    /* media query is used for responsiveness of the webpage
+     */
+</style>
+<body>
+    <div>
+        Hey welcome to the page!
+    </div>
+    <div class="boxes">
+    <div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+</div>
+</body>
+</html>

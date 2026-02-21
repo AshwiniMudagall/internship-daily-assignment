@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /*Universal selector*/
+    *{
+padding: 0;
+margin: 0;
+    }
+    .box{
+        border: 2px solid black   ;
+    /* width: 120px; */ width: 80vw;       
+    height: 20vh;
+    /* 1pixel=196 th of an inch */
+    background-color: rgb(89, 219, 176);
+    margin: 20px;
+    }
+    .content{
+        border:2px dashed rgb(1, 1, 1);  
+        width: 80vw;
+        height: 30vh;
+        color: rgb(207, 117, 7);
+        background-color: antiquewhite;
+        margin: auto 50px;
+        /* above the first auto applied for to/bottom and 
+        next is for right and left */
+
+    }
+    .content p
+    {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 40px;
+    }
+    .box p{
+font-family: 'Times New Roman', Times, serif;
+font-size: 40px;
+    }
+    
+    .eva
+    {
+        background-color: bisque;
+        border: 2px solid green;
+       width: 20%;
+       height: 3%;
+        margin: 10%;
+        padding: 2%;
+    }
+    .eva h2{
+color: rgb(253, 153, 4);
+font-size: 200%;
+background-color: cornflowerblue;
+
+
+    }
+
+    /*but in some other devices where the screen width is low 
+    there if we use this "pixel" as the unit then code will destructed
+    that is why we use a responsive unit known as the 
+    "VIEWPORT WIDTH(vw) and "VIEWPORT HEIGHT(VH)*/
+</style>
+<body>
+    <div class="box">
+        this is a box
+        <p id="'myparagraph"> This is using Pixel sizing</p>
+
+    </div>
+    <br>
+    <div class="content">
+        cars (often casually called Ferrari v-car / supercar) are high-performance luxury vehicles known for speed, powerful engines, and iconic design. Built in Italy, Ferrari focuses on racing-inspired technology, premium materials, and precise engineering. Most models feature V8 or V12 engines, advanced aerodynamics, and cutting-edge electronics, making them symbols of performance, prestige, and motorsport heritage.
+<p id="thirpara">
+    This is using viewport sizing
+</p>
+    </div>
+    
+    <div class="eva">
+        <h3>This is fourth paragragh</h3>
+        <h2 id="spec">This is using percentage sizing</h2>
+    </div>
+</body>
+</html>
