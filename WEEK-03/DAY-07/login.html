@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form
+    {
+        background-color: bisque;
+        width: 40%;
+        height: 20vh;
+        margin-left: 40%;
+        border: 6px solid ;
+    }
+    form input{
+        margin-top: 20px;
+        border:1px black solid;
+       margin-left: 2px;
+    }
+form label{
+    margin-left: 5px;
+}
+    button{
+        color:blueviolet;
+        background-color: antiquewhite;
+        margin-left: 120px;
+        margin-top: 30px;
+        border-radius: 30px;
+
+    }
+</style>
+<body>
+    <form id="loginForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name"><br>
+        <label for="mypassword">Password</label>
+        <input type="text" name="password" id="mypassword">
+        <br>
+        <button type="submit">Login</button>
+    </form>
+    <p id="loginMessage" style="color:green; font-weight:bold; text-align:center; margin-top:10px;"></p>
+    <script src="script.js"></script>
+</body>
+</html>

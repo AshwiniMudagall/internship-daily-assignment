@@ -1,0 +1,126 @@
+body{
+    background-image: url("https://images7.alphacoders.com/705/thumb-1920-705625.jpg");
+    background-repeat: no-repeat;/*it will print the image only once*/
+    background-size: cover;/*It covers the entire screen*/
+background-image: center;
+height: 100vh;
+}
+
+nav{
+    border:1px solid rgb(4, 4, 5);
+    display: flex;
+    justify-content: space-between;/*to bring space between different div content*/
+    align-items: center;
+    padding: 2px 5px;
+    background-color:transparent;
+    border-radius: 13px;
+}
+ li {
+    list-style: none;/*To remopve the bullet points*/
+
+    display: inline-block;/*To make the home,services etc appera side by side*/
+text-indent: 39px;
+padding: 10px;
+font-size: 20px;
+margin-right: 15px;
+
+}
+ul li a{
+    color:rgb(156, 156, 216);
+    text-decoration: none;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+ul li a:hover{
+    
+    color: #fff;
+    background-color:  rgb(92, 150, 198);
+    box-shadow: 0 0 5px rgb(92, 150, 198),
+   0 0 15px rgb(92, 150, 198),
+   0 0 30px rgb(92, 150, 198);
+  
+}
+.heading{
+    font-size: 28px;
+     border-left: 5px;
+     text-indent: 20px;
+     color: rgb(210, 9, 210);
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.heading:hover{
+    color: #fff;
+    background-color:  rgb(92, 150, 198);
+    box-shadow: 0 0 5px rgb(172, 192, 208),
+   0 0 15px  rgb(172, 192, 208),
+   0 0 30px  rgb(172, 192, 208);
+    transition: 0.2s;
+    
+    border-radius: 3px;
+
+}
+.button{
+    font-size: 15px;
+   background-color:rgb(146, 135, 213);
+   color:rgb(11, 11, 11);
+   margin-right: 3px;
+   padding: 15px;
+   border: 2px lightgrey solid;
+   
+}
+.button:hover{
+       transition: 0.1s;
+background: lightseagreen;
+}
+span:hover{
+    color: #fff;
+
+
+}
+.Main1 h1{
+    color: blueviolet;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.Main1{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #111; /* dark footer */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Links inside footer */
+footer a {
+  color: #f40000; /* Ferrari red */
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Highlight Ferrari word */
+main span {
+  color: #f40000;
+  transition: color 0.3s, transform 0.3s;
+}
+
+main span:hover {
+  color: gold;
+  transform: scale(1.1);
+}
