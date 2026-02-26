@@ -1,0 +1,9 @@
+WEEK-04 DAY-03 TASKS COMPLETED 
+
+*Imported mysql.connector to connect python with the mysql database
+*Created a database named "Studentdetail" and a table "Studentinfo" 
+*Created a file in VS code 
+*Wrote the code for printing the data from database "Studentdetail"
+*Today's assignment helped to understand the need to connect python to database i.e.,the process of storing and retreiving data becomes easy with the use of loops and other properties of python
+rather than manually storing and retrieving data by working in workbench or cmd terminal
+
