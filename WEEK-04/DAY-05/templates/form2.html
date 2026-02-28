@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    
+</head>
+<style>
+
+    form{
+        
+        width:320px;
+        height:40vh;
+        background-color: antiquewhite;
+        margin: 9px;
+        border: 2px dashed black;
+    margin-left:38vw;
+
+    }
+    input{
+        margin: 5px;
+    }
+   label{
+margin: 8px;
+   }
+   .error{
+    color:red;
+    text-align:center;
+}
+    
+    button{
+        background-color: chocolate;
+        color:bisque;
+        margin-left: 140px;
+    }
+</style>
+<body>
+    <form action="login" method="post">
+        {% if error %}
+        <p class="error">{{ error }}</p>
+        {% endif %}
+
+<label for="Myid"> Email_ID:</label>
+<input type="email" name="email" id="Myid"> 
+<br>  
+<br> 
+<label for="phone">Phone Number:</label>  
+<input type="text" name="phonenumber" id="Phone"> 
+<br>
+<br>
+
+</select>
+<br>
+<br>
+<button value="Submit">Login</button>
+    </form>
+</body>
+</html>
