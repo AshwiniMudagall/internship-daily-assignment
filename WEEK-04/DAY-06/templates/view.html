@@ -1,0 +1,49 @@
+<h2>Student Record</h2>
+<style>
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+th, td {
+    padding: 12px 20px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+</style>
+
+
+
+<table border="1"> 
+    <tr>
+        <th>Name</th>
+        <th>Reg_Number</th>
+        <th>Email</th>
+        <th>Course</th>
+        <th>action</th>
+    </tr>
+
+    {% for s in students %}
+    <tr>
+        <td>{{s.name}}</td>
+        <td>{{s.reg_number}}</td>
+        <td>{{s.email}}</td>
+        <td>{{s.course}}</td>
+        <td><a href="/delete/{{s.reg_number}}">delete</a>
+            <a href="/edit/{{ s.reg_number }}">Edit</a>
+        </td>
+       
+    </tr>
+    {% endfor %}
+</table>
