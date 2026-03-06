@@ -11,7 +11,7 @@ app = Flask(__name__)
 #     database="flask_project"
 # )
 
-cursor = db.cursor()
+# cursor = db.cursor()
 
 @app.route("/")
 def home():
@@ -98,6 +98,7 @@ def items():
 
 if __name__=="__main__":
     app.run(host="0.0.0.0",port=10000)
+
 
 
 
