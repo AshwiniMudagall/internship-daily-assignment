@@ -4,12 +4,12 @@ import mysql.connector
 app = Flask(__name__)
 
 # database connection
-db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Ashwini",
-    database="flask_project"
-)
+# db = mysql.connector.connect(
+#     host="localhost",
+#     user="root",
+#     password="Ashwini",
+#     database="flask_project"
+# )
 
 cursor = db.cursor()
 
@@ -98,6 +98,7 @@ def items():
 
 if __name__=="__main__":
     app.run(host="0.0.0.0",port=10000)
+
 
 
 
