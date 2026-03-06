@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2>Student Portal</h2>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/register">Register</a>
+            <a href="/login">Login</a>
+            <a href="/dashboard">Dashboard</a>
+            <a href="/items">Items</a>
+        </div>
+    </nav>
+
+    <!-- Register form inside container -->
+    <div class="container">
+        <h1>Register</h1>
+        <form method="POST">
+            Name: <input type="text" name="name"><br><br>
+            Email: <input type="email" name="email"><br><br>
+            Password: <input type="password" name="password"><br><br>
+            <button type="submit">Register</button>
+        </form>
+        <a href="/login" class="btn">Login here</a>
+    </div>
+
+</body>
+</html>

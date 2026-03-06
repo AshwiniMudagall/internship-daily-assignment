@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2>Student Portal</h2>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/register">Register</a>
+            <a href="/login">Login</a>
+            <a href="/dashboard">Dashboard</a>
+            <a href="/items">Items</a>
+        </div>
+    </nav>
+
+    <!-- page content -->
+    <div class="container">
+        <h1>Dashboard</h1>
+        <p>Login Successful</p>
+        <a href="/students" class="btn">Manage Student Records</a>
+    </div>
+
+</body>
+</html>

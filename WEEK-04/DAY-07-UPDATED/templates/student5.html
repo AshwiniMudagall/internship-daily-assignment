@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Manager</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2>Student Portal</h2>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/register">Register</a>
+            <a href="/login">Login</a>
+            <a href="/dashboard">Dashboard</a>
+            <a href="/items">Items</a>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+        <h1>Student Manager</h1>
+
+        <!-- Add Student Form -->
+        <form method="POST">
+            Name: <input type="text" name="name"><br><br>
+            Age: <input type="number" name="age"><br><br>
+            Course: <input type="text" name="course"><br><br>
+            <button type="submit">Add Student</button>
+        </form>
+
+        <hr>
+
+        <!-- Student List -->
+        <h3>Student List</h3>
+        {% for s in students %}
+        <p>{{ s[1] }} | {{ s[2] }} | {{ s[3] }}</p>
+        {% endfor %}
+
+        <a href="/dashboard" class="btn">Back</a>
+    </div>
+
+</body>
+</html>
