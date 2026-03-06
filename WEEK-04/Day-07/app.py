@@ -96,7 +96,9 @@ def items():
 
     return render_template("items.html", items=data)
 
-app.run(debug=True)
+if __name__="__main__":
+    app.run(host="0.0.0.0",port=10000)
+
 
 
 
