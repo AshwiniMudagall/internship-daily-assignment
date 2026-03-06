@@ -1,0 +1,21 @@
+<h2>Student Manager</h2>
+
+<form method="POST">
+Name: <input type="text" name="name"><br><br>
+Age: <input type="number" name="age"><br><br>
+Course: <input type="text" name="course"><br><br>
+
+<button type="submit">Add Student</button>
+</form>
+
+<hr>
+
+<h3>Student List</h3>
+
+{% for s in students %}
+<p>
+{{s[1]}} | {{s[2]}} | {{s[3]}}
+</p>
+{% endfor %}
+
+<a href="/dashboard">Back</a>
